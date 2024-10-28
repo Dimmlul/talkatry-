@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="/img/favicon2.png" type="icon/png"> 
+    <link rel="stylesheet" href="output.css"> 
+   
+
+    <title>Talkatry</title>
+</head>
+
+<body>
+
+
+<!-- Navbar -->
+<div class="navbar bg-satu text-white fixed top-0 left-0 w-full z-50 ">
+    <div class="navbar-start">
+        <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                <li><a href="">Our Psychiatrists</a></li>
+                <li><a href="">How to</a></li>
+                <li><a href="">Help Center</a></li>
+                <li><a href="">Treatment</a></li>
+            </ul>
+        </div>
+        <a class="btn btn-ghost text-xl">Talkatry</a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+            <li><a href="our.html">Our Psychiatrists</a></li>
+            <li><a href="#steps">How to</a></li>
+            <li><a href="#help-center">Help Center</a></li>
+            <li><a href="#treatment-link">Treatment</a></li>
+        </ul>
+    </div>
+    <div class="navbar-end">
+        <a href="" class="btn">Get Started</a>
+    </div>
+
+</div>
+
+
+ <!-- Hero/Landing Page -->
+ <div class="hero bg-cream min-h-screen">
+    <div class="hero-content flex-col lg:flex-row-reverse">
+        <!-- SVG Image -->
+        <svg id="10015.io" width="500" height="500" viewBox="48 48 480 480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+                <clipPath id="blob">
+                    <path fill="#d7d7e6" d="M464.5,274Q450,308,434.5,339Q419,370,394.5,394.5Q370,419,340,436.5Q310,454,275,465Q240,476,205.5,464Q171,452,136,441.5Q101,431,82.5,399.5Q64,368,40.5,340.5Q17,313,16,276.5Q15,240,24.5,206.5Q34,173,46,140.5Q58,108,82,81.5Q106,55,138.5,41.5Q171,28,205.5,23Q240,18,274.5,23Q309,28,340,44Q371,60,398,83Q425,106,442.5,137Q460,168,469.5,204Q479,240,464.5,274Z" />
+                </clipPath>
+            </defs>
+            <image x="10" y="40" width="100%" height="100%" clip-path="url(#blob)" href="/img/4.png" preserveAspectRatio=""></image>
+        </svg>
+
+        <div class="ml-0 lg:ml-8 mt-6 lg:mt-0 text-center lg:text-left">
+            <h1 class="text-5xl font-bold text-gray-800">Psychiatry That Prioritizes You</h1>
+            <p class="py-6 text-lg text-gray-700">Virtual Mental Health Care Tailored to Your Needs</p>
+
+            <!-- Feature List -->
+            <div class="flex flex-col space-y-4 mt-4">
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-dua" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    <span class="text-lg text-gray-600">Virtual Visits - Connect with professionals from the comfort of your home.</span>
+                </div>
+
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-dua" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    <span class="text-lg text-gray-600">Insurance Accepted - Making mental health care accessible for everyone.</span>
+                </div>
+
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-dua" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    <span class="text-lg text-gray-600">Doctors Who Listen - We prioritize your needs and concerns.</span>
+                </div>
+            </div>
+
+            <br>
+            <button class="btn bg-satu text-white py-2 px-4 rounded-lg hover:bg-satu-dark transition duration-300">Start Our Short Assessment</button>
+        </div>
+    </div>
+</div>
+
+
+<!-- Section  -->
+<div class="hero bg-base-200 min-h-screen">
+    <div class="hero-content flex-col lg:flex-row">
+        <img
+            src="/img/vs.png"
+            class="w-full sm:w-80 md:w-96 lg:w-1/2 max-w-full rounded-lg shadow-2xl transition-transform transform hover:scale-105"
+            alt="Psychiatry vs Therapy"
+        />
+        <div class="ml-0 lg:ml-8 mt-6 lg:mt-0 text-center lg:text-left">
+            <h1 class="text-6xl font-bold text-gray-800">Psychiatry vs. Therapy</h1>
+            <p class="py-6 text-lg text-gray-700">
+                In today's fast-paced world, navigating mental health options can be challenging.
+                Psychiatry and therapy both offer essential support, but they serve different purposes.
+                While psychiatrists focus on diagnosing and treating mental disorders with medical interventions, therapists provide coping strategies and emotional support through talk therapy.
+            </p>
+            <p class="py-4 text-md text-gray-600">
+                Not sure exactly what you need? One of our psychiatrists can help you with a treatment plan tailored to your unique situation.
+                Understanding the distinctions between these two fields can empower you to make informed choices about your mental health care.
+            </p>
+            <a href="#learn-more" class="mt-4 inline-block bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-300">Learn More</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Section 0 -->
+<div class="mt-32 py-12">
+        <div class="px-4 sm:px-8 max-w-5xl m-auto">
+            <h1 class="text-center font-semibold text-3xl semi-bold mb-12">What we specialize in</h1> <!-- Judul List -->
+
+            <ul class="border border-gray-200 rounded overflow-hidden shadow-md">
+                <!-- Item 1: ADHD -->
+                <li class="flex items-center px-6 py-4 bg-white hover:bg-empat  border-b last:border-none border-gray-200 transition-all duration-300 ease-in-out">
+                    <img src="/img/p1.png" alt="Icon" class="w-8 h-8 mr-4">
+                    <span class="text-lg">ADHD (Attention Deficit Hyperactivity Disorder)</span>
+                </li>
+
+                <!-- Item 2: Childhood Trauma -->
+                <li class="flex items-center px-6 py-4 bg-white hover:bg-empat  border-b last:border-none border-gray-200 transition-all duration-300 ease-in-out">
+                    <img src="/img/p2.png"  alt="Icon" class="w-8 h-8 mr-4">
+                    <span class="text-lg">Childhood Trauma</span>
+                </li>
+
+                <!-- Item 3: Anxiety Disorders -->
+                <li class="flex items-center px-6 py-4 bg-white hover:bg-empat  border-b last:border-none border-gray-200 transition-all duration-300 ease-in-out">
+                    <img src="/img/p3.png"  alt="Icon" class="w-8 h-8 mr-4">
+                    <span class="text-lg">Anxiety Disorders</span>
+                </li>
+
+                <!-- Item 4: Depression -->
+                <li class="flex items-center px-6 py-4 bg-white hover:bg-empat  border-b last:border-none border-gray-200 transition-all duration-300 ease-in-out">
+                    <img src="/img/p4.png"  alt="Icon" class="w-8 h-8 mr-4">
+                    <span class="text-lg">Depression</span>
+                </li>
+
+                <!-- Item 5: Bipolar Disorder -->
+                <li class="flex items-center px-6 py-4 bg-white hover:bg-empat  border-b last:border-none border-gray-200 transition-all duration-300 ease-in-out">
+                    <img src="/img/p5.png" alt="Icon" class="w-8 h-8 mr-4">
+                    <span class="text-lg">Bipolar Disorder</span>
+                </li>
+
+                <!-- Item 6: PTSD (Post-Traumatic Stress Disorder) -->
+                <li class="flex items-center px-6 py-4 bg-white hover:bg-empat  border-b last:border-none border-gray-200 transition-all duration-300 ease-in-out">
+                    <img src="/img/p6.png"  alt="Icon" class="w-8 h-8 mr-4">
+                    <span class="text-lg">PTSD (Post-Traumatic Stress Disorder)</span>
+                </li>
+
+                <!-- Item 7: OCD (Obsessive-Compulsive Disorder) -->
+                <li class="flex items-center px-6 py-4 bg-white hover:bg-empat  border-b last:border-none border-gray-200 transition-all duration-300 ease-in-out">
+                    <img src="/img/p7.png"  alt="Icon" class="w-8 h-8 mr-4">
+                    <span class="text-lg">OCD (Obsessive-Compulsive Disorder)</span>
+                </li>
+
+
+            </ul>
+
+        </div>
+</div>
+
+
+<!-- Section 1 -->
+<section class="bg-white py-12">
+        <div class="container mx-auto text-center">
+            <h1 class="text-3xl font-semibold text-gray-800 mb-8">How It Works</h1>
+            <p class="mb-12 text-gray-600">Follow these simple steps to start your journey with Talkatry.</p>
+
+            <div class="flex justify-center space-x-8"> <!-- Menggunakan flex untuk horizontal alignment -->
+                <!-- Step 1 -->
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                    <img class="h-48 w-full object-cover" src="/img/s1.png" alt="Book Online"> <!-- Ganti dengan URL gambar -->
+                    <div class="px-6 py-4">
+                        <h2 class="font-bold text-xl mb-2">Step 1: Book Online</h2>
+                        <p class="text-gray-700">Schedule your appointment easily through our online platform.</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                    <img class="h-48 w-full object-cover" src="/img/s2.png" alt="Meet Your Therapist"> <!-- Ganti dengan URL gambar -->
+                    <div class="px-6 py-4">
+                        <h2 class="font-bold text-xl mb-2">Step 2: Meet Your Therapist</h2>
+                        <p class="text-gray-700">Connect with your therapist via video call from the comfort of your home.</p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                    <img class="h-48 w-full object-cover" src="/img/s3.png" alt="Recovery"> <!-- Ganti dengan URL gambar -->
+                    <div class="px-6 py-4">
+                        <h2 class="font-bold text-xl mb-2">Step 3: Recovery</h2>
+                        <p class="text-gray-700">Begin your journey towards recovery with professional guidance and support.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+<!-- Section 2 - Review  -->
+<div class="mt-4 font-[sans-serif] max-w-6xl mx-auto relative py-12">
+
+    <div class="mb-12 text-center">
+        <h2 class="text-gray-800 text-3xl font-extrabold">What our clients say</h2>
+    </div>
+
+    <!-- Carousel container -->
+    <div class="carousel overflow-hidden relative">
+
+        <!-- Slides wrapper -->
+        <div id="carousel-slides" class="grid grid-cols-3 gap-6 transition-transform duration-700 ease-out">
+
+            <!-- Slide 1 -->
+            <div class="p-6 rounded-lg mx-auto bg-gray-100 relative">
+                <div class="flex flex-wrap items-center gap-4">
+                    <img src="/img/lego1.jpg" class="w-14 h-14 rounded-full border-4 border-white" />
+                    <div>
+                        <h4 class="text-gray-800 text-sm font-bold">John Doe</h4>
+                    </div>
+                </div>
+                <div class="flex space-x-1 mt-4">
+                    <!-- Ratings -->
+                    <svg class="w-4 fill-[#facc15]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <svg class="w-4 fill-[#facc15]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <svg class="w-4 fill-[#facc15]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <svg class="w-4 fill-[#facc15]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <svg class="w-4 fill-[#facc15]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                </div>
+                <div class="mt-6">
+                    <p class="text-gray-800 text-sm leading-relaxed">
+                        "The online treatment was fantastic. The consultation process was smooth, and I could feel the attention to detail from the comfort of my home. The expert gave me thorough advice, and I was able to see results within a few days. Highly recommend this service!"
+                    </p>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="p-6 rounded-lg mx-auto bg-gray-100 relative">
+                <div class="flex flex-wrap items-center gap-4">
+                    <img src="/img/lego2.jpg" class="w-14 h-14 rounded-full border-4 border-white" />
+                    <div>
+                        <h4 class="text-gray-800 text-sm font-bold">Mark Adair</h4>
+                    </div>
+                </div>
+                <div class="flex space-x-1 mt-4">
+                    <!-- Ratings -->
+                    <svg class="w-4 fill-[#facc15]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <svg class="w-4 fill-[#facc15]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <svg class="w-4 fill-[#facc15]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <svg class="w-4 fill-[#facc15]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <svg class="w-4 fill-[#facc15]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                </div>
+                <div class="mt-6">
+                    <p class="text-gray-800 text-sm leading-relaxed">
+                        "I was a bit skeptical about getting treatment online, but it exceeded my expectations. The therapist was very professional, and the treatment plan worked wonders for my skin."
+                    </p>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+             
+            <div class="p-6 rounded-lg mx-auto bg-gray-100 relative">
+                <div class="flex flex-wrap items-center gap-4">
+                    <img src="/img/lego3.jpg" class="w-14 h-14 rounded-full border-4 border-white" />
+                    <div>
+                        <h4 class="text-gray-800 text-sm font-bold">Sara Nguyen</h4>
+                    </div>
+                </div>
+                <div class="flex space-x-1 mt-4">
+                    
+                    <!-- Ratings -->
+                    <svg class="w-4 fill-[#facc15]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <svg class="w-4 fill-[#facc15]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <svg class="w-4 fill-[#facc15]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <svg class="w-4 fill-[#facc15]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <svg class="w-4 fill-[#facc15]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                </div>
+                <div class="mt-6">
+                    <p class="text-gray-800 text-sm leading-relaxed">
+                        "This online consultation saved me a lot of time, and the treatment was as effective as visiting a clinic. The convenience and results make it worth every penny."
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+              <!-- Previous and Next buttons -->
+              <button id="prev-slide" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white p-2 shadow-md">❮</button>
+              <button id="next-slide" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white p-2 shadow-md">❯</button>
+
+
+    </div>
+    <script>
+        const slides = document.getElementById('carousel-slides');
+        const slideWidth = slides.children[0].offsetWidth; // Menghitung lebar satu slide penuh
+        let currentIndex = 0;
+        const totalSlides = 2; // Ada dua slide total (masing-masing berisi 3 review)
+
+        document.getElementById('nextSlide').addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            updateSliderPosition();
+        });
+
+        document.getElementById('prevSlide').addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+            updateSliderPosition();
+        });
+
+        function updateSliderPosition() {
+            slides.style.transform = `translateX(-${currentIndex * 100}%)`; // Pindahkan slide ke arah yang benar
+        }
+
+        // Auto loop
+        setInterval(() => {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            updateSliderPosition();
+        }, 5000); // Setiap 5 detik
+    </script>
+</div>
+
+
+<!-- Section 3 - FAQ  -->
+<section class="bg-white z-0 py-12 ">
+    <div class="container px-4 py-8 mx-auto max-w-2xl overflow-x-hidden overflow-y-auto z-0">
+        <h1 class="text-2xl font-semibold text-center text-gray-800 lg:text-4xl">FAQ</h1>
+
+        <div class="mt-8 xl:mt-12 lg:flex lg:justify-center">
+            <!-- FAQ Section -->
+            <div class="flex-1 mt-8 lg:mt-0">
+                <!-- FAQ 1 -->
+                <div x-data="{ open: false }">
+                    <button @click="open = !open" class="flex items-center focus:outline-none py-2">
+                        <svg :class="{ 'transform rotate-180': open }" class="w-6 h-6 text-tiga transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path>
+                        </svg>
+                        <h1 class="mx-4 text-xl text-gray-700">What services does Talkatry offer?</h1>
+                    </button>
+
+                    <div x-show="open" class="flex mt-4 md:mx-6 transition-all duration-300 ease-in-out">
+                        <span class="border-l-2 border-tiga"></span>
+                        <p class="max-w-3xl px-4">
+                            Talkatry provides online psychiatric evaluations, therapy sessions, medication management, and support for various mental health issues including anxiety, depression, and stress management.
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="my-6 border-gray-200 dark:border-gray-700">
+
+                <!-- FAQ 2 -->
+                <div x-data="{ open: false }">
+                    <button @click="open = !open" class="flex items-center focus:outline-none py-2">
+                        <svg :class="{ 'transform rotate-180': open }" class="w-6 h-6 text-tiga transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path>
+                        </svg>
+                        <h1 class="mx-4 text-xl text-gray-700">How do I schedule an appointment?</h1>
+                    </button>
+
+                    <div x-show="open" class="flex mt-4 md:mx-6 transition-all duration-300 ease-in-out">
+                        <span class="border-l-2 border-tiga"></span>
+                        <p class="max-w-3xl px-4">
+                            You can schedule an appointment by visiting our website and using the booking system. Simply select a date and time that works for you, and follow the prompts to complete your booking.
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="my-6 border-gray-200 dark:border-gray-700">
+
+                <!-- FAQ 3 -->
+                <div x-data="{ open: false }">
+                    <button @click="open = !open" class="flex items-center focus:outline-none py-2">
+                        <svg :class="{ 'transform rotate-180': open }" class="w-6 h-6 text-tiga transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path>
+                        </svg>
+                        <h1 class="mx-4 text-xl text-gray-700">Is Talkatry confidential?</h1>
+                    </button>
+
+                    <div x-show="open" class="flex mt-4 md:mx-6 transition-all duration-300 ease-in-out">
+                        <span class="border-l-2 border-tiga"></span>
+                        <p class="max-w-3xl px-4">
+                            Yes, all sessions are completely confidential. We adhere to strict privacy policies and HIPAA regulations to ensure your information is secure and private.
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="my-6 border-gray-200 dark:border-gray-700">
+
+                <!-- FAQ 4 -->
+                <div x-data="{ open: false }">
+                    <button @click="open = !open" class="flex items-center focus:outline-none py-2">
+                        <svg :class="{ 'transform rotate-180': open }" class="w-6 h-6 text-tiga transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path>
+                        </svg>
+                        <h1 class="mx-4 text-xl text-gray-700">What should I expect during my first session?</h1>
+                    </button>
+
+                    <div x-show="open" class="flex mt-4 md:mx-6 transition-all duration-300 ease-in-out">
+                        <span class="border-l-2 border-tiga"></span>
+                        <p class="max-w-3xl px-4">
+                            During your first session, the psychiatrist will ask you questions about your mental health history, current concerns, and goals for therapy. This helps us tailor our approach to best meet your needs.
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="my-6 border-gray-200 dark:border-gray-700">
+
+                <!-- FAQ 5 -->
+                <div x-data="{ open: false }">
+                    <button @click="open = !open" class="flex items-center focus:outline-none py-2">
+                        <svg :class="{ 'transform rotate-180': open }" class="w-6 h-6 text-tiga transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path>
+                        </svg>
+                        <h1 class="mx-4 text-xl text-gray-700">What if I need to cancel or reschedule my appointment?</h1>
+                    </button>
+
+                    <div x-show="open" class="flex mt-4 md:mx-6 transition-all duration-300 ease-in-out">
+                        <span class="border-l-2 border-tiga"></span>
+                        <p class="max-w-3xl px-4">
+                            If you need to cancel or reschedule your appointment, please do so at least 24 hours in advance through our website or by contacting our support team. This allows us to offer your spot to another patient.
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="my-6 border-gray-200 dark:border-gray-700">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Alpine.js for toggle functionality -->
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.2/dist/cdn.min.js"></script>
+
+
+<!-- Footer  -->
+<footer class="footer bg-base-200 text-base-content p-10 flex justify-between space-x-10">
+    <nav class="flex-1">
+        <h6 class="footer-title">Services</h6>
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+    </nav>
+    <nav class="flex-1">
+        <h6 class="footer-title">Company</h6>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+    </nav>
+    <nav class="flex-1">
+        <h6 class="footer-title">Legal</h6>
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+    </nav>
+</footer>
+<footer2 class="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
+    <aside class="grid-flow-col items-center">
+        <img src="/img/favicon2.png" alt="Logo" class="h-10"> <!-- Change made here -->
+        <p>
+            Talkatry ltd.
+            <br />
+            est 2024
+        </p>
+    </aside>
+    <nav class="md:place-self-center md:justify-self-end">
+        <div class="grid grid-flow-col gap-4">
+            <a>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+                </svg>
+            </a>
+            <a>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                        d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+                </svg>
+            </a>
+            <a>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                        d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+                </svg>
+            </a>
+        </div>
+    </nav>
+</footer2>
+
+</body>
+</html>
