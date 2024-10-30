@@ -24,7 +24,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
                 </svg>
             </div>
-            <ul class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <ul class="menu menu-sm dropdown-content bg-satu rounded-box z-[1] mt-3 w-52 p-2 shadow">
                 <li><a href="about.html">About us</a></li>
                 <li><a href="">How to</a></li>
                 <li><a href="">Help Center</a></li>
@@ -336,31 +336,34 @@
 
 
     </div>
+<!-- Script for the carousel -->
     <script>
         const slides = document.getElementById('carousel-slides');
-        const slideWidth = slides.children[0].offsetWidth; // Menghitung lebar satu slide penuh
+        const slideWidth = slides.children[0].offsetWidth; // Calculate width of one slide
         let currentIndex = 0;
-        const totalSlides = 2; // Ada dua slide total (masing-masing berisi 3 review)
+        const totalSlides = 2; // Change this to the actual number of slides
 
-        document.getElementById('nextSlide').addEventListener('click', () => {
+        document.getElementById('next-slide').addEventListener('click', () => {
+            console.log('Next clicked'); // For debugging
             currentIndex = (currentIndex + 1) % totalSlides;
             updateSliderPosition();
         });
 
-        document.getElementById('prevSlide').addEventListener('click', () => {
+        document.getElementById('prev-slide').addEventListener('click', () => {
+            console.log('Previous clicked'); // For debugging
             currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
             updateSliderPosition();
         });
 
         function updateSliderPosition() {
-            slides.style.transform = `translateX(-${currentIndex * 100}%)`; // Pindahkan slide ke arah yang benar
+            slides.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
         }
 
-        // Auto loop
+        // Auto-loop every 5 seconds
         setInterval(() => {
             currentIndex = (currentIndex + 1) % totalSlides;
             updateSliderPosition();
-        }, 5000); // Setiap 5 detik
+        }, 5000);
     </script>
 </div>
 
