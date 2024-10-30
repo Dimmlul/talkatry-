@@ -20,7 +20,8 @@ export default {
                 satu: '#028174',
                 dua: '#0ab68b',
                 tiga: '#92de8b',
-                empat: '#ffe3b3',  // Custom color definition
+                empat: '#ffe3b3', 
+                putih: '#f7f7f7', 
             },
             scrollBehavior: ['smooth'],
         },
@@ -29,6 +30,6 @@ export default {
         require('daisyui'),
     ],
     daisyui: {
-        themes: ["light", "dark", "cupcake", "cyberpunk", "dim", "dracula"],  // Add your themes here
+        themes: ["light", "dark", "cupcake", "cyberpunk", "dim", "dracula"], 
     },
 };
